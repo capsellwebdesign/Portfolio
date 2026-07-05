@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kacper | Web Designer</title>
+
+    <!-- ========== SEO — PODSTAWA ========== -->
+    <title>Kacper Piskalski | Strony Internetowe dla Firm — Lublin</title>
+    <meta name="description" content="Projektuję i tworzę nowoczesne, szybkie strony internetowe dla lokalnych firm w Lublinie. Czysty kod, pełny copywriting i SEO już od 1000 zł. Sprawdź moje realizacje.">
+    <meta name="keywords" content="strony internetowe Lublin, web design Lublin, tworzenie stron www, projektowanie stron internetowych, web developer Lublin, strona dla firmy, freelancer web design">
+    <meta name="author" content="Kacper Piskalski — Capsell">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="https://capsellwebdesign.github.io/Portfolio/">
+
+    <!-- ========== OPEN GRAPH (Facebook, LinkedIn) ========== -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kacper Piskalski | Strony Internetowe dla Firm — Lublin">
+    <meta property="og:description" content="Pomagam lokalnym biznesom zdobywać klientów dzięki nowoczesnym stronom internetowym. Zobacz moje realizacje i ofertę.">
+    <meta property="og:image" content="https://capsellwebdesign.github.io/Portfolio/Images/Mundury-Ostrowski-Screenshot-mainpage.png">
+    <meta property="og:url" content="https://capsellwebdesign.github.io/Portfolio/">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="Capsell Web Design">
+
+    <!-- ========== TWITTER / X CARD ========== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kacper Piskalski | Strony Internetowe dla Firm — Lublin">
+    <meta name="twitter:description" content="Nowoczesne, szybkie strony internetowe dla lokalnych firm. Zobacz realizacje i ofertę już od 1000 zł.">
+    <meta name="twitter:image" content="https://capsellwebdesign.github.io/Portfolio/Images/Mundury-Ostrowski-Screenshot-mainpage.png">
+
+    <!-- ========== FAVICON (podmień na własny plik jeśli masz) ========== -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- ========== DANE STRUKTURALNE (Schema.org) ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Capsell Web Design",
+      "founder": {
+        "@type": "Person",
+        "name": "Kacper Piskalski"
+      },
+      "description": "Projektowanie i tworzenie nowoczesnych stron internetowych dla lokalnych firm w Lublinie i okolicach.",
+      "areaServed": {
+        "@type": "City",
+        "name": "Lublin"
+      },
+      "url": "https://capsellwebdesign.github.io/Portfolio/",
+      "image": "https://capsellwebdesign.github.io/Portfolio/Images/Mundury-Ostrowski-Screenshot-mainpage.png",
+      "email": "CapsellWebDesign@proton.me",
+      "sameAs": [
+        "https://www.linkedin.com/in/kacper-piskalski-aa483941a/"
+      ],
+      "priceRange": "1000-3000 PLN",
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Projektowanie stron internetowych"
+        },
+        "priceCurrency": "PLN",
+        "price": "1000"
+      }
+    }
+    </script>
 </head>
 <body>
 <header>
@@ -73,7 +135,7 @@
         <span class="section-label">O mnie</span>
         <div class="about-grid">
             <div class="about-image-wrapper">
-                <img src="Images/fotka-kacperka.png" alt="Kacper" class="about-photo">
+                <img src="Images/fotka-kacperka.png" alt="Kacper Piskalski — web developer i projektant stron internetowych z Lublina" class="about-photo" loading="lazy">
             </div>
             <div class="about-content">
                 <h2>Cześć, jestem Kacper</h2>
@@ -100,7 +162,7 @@
 
             <div class="project-card project-card--featured">
                 <div class="project-img">
-                    <img src="Images/Mundury-Ostrowski-Screenshot-mainpage.png" alt="Mundury Ostrowski – strona główna">
+                    <img src="Images/Mundury-Ostrowski-Screenshot-mainpage.png" alt="Strona internetowa Mundury Ostrowski — realizacja Kacper Piskalski, projektowanie stron Lublin" loading="lazy">
                 </div>
                 <div class="project-info">
                     <div class="project-tags">
@@ -110,7 +172,7 @@
                     </div>
                     <h3>Mundury Ostrowski</h3>
                     <p>Strona dla lubelskiego producenta mundurów z ponad 30-letnim doświadczeniem. Zaprojektowałem poważny, militarny klimat z galerią produktów dla wojska, policji i straży pożarnej — i przekazem, który buduje zaufanie od pierwszego spojrzenia.</p>
-                    <a href="https://munduryostrowski.pl/" class="project-link" target="_blank">Zobacz projekt →</a>
+                    <a href="https://munduryostrowski.pl/" class="project-link" target="_blank" rel="noopener noreferrer">Zobacz projekt →</a>
                 </div>
             </div>
 
@@ -271,7 +333,7 @@
             <p>Napisz do mnie — odpiszę w ciągu 12 godzin. Chętnie dowiem się więcej o Twoim biznesie i sprawdzę czy mogę pomóc.</p>
             <div class="contact-links">
                 <a href="mailto:CapsellWebDesign@proton.me" class="primary-btn">CapsellWebDesign@proton.me</a>
-                <a href="https://www.linkedin.com/in/kacper-piskalski-aa483941a/?skipRedirect=true" class="secondary-btn" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/kacper-piskalski-aa483941a/?skipRedirect=true" class="secondary-btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
         </div>
     </div>
@@ -292,5 +354,4 @@
     </div>
 </footer>
 </body>
-</html>
 </html>
